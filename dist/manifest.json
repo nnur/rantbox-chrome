@@ -5,10 +5,6 @@
   "permissions": [
     "tabs", "http://*/*", "https://*/*"
   ],
-  "content_scripts": [{
-     "js": ["jquery-1.11.1.min.js"],
-     "matches": ["http://*/*", "https://*/*"]
-   }],
   "browser_action": {
       "default_title": "Rant about websites for money.",
       "default_icon": "icon.png",

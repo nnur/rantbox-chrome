@@ -2,6 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import jQuery from 'jquery';
+import './popup.css';
+import './jquery.tagsinput.css';
+import 'jquery-tags-input/src/jquery.tagsinput.js';
+
+const $ = jQuery;
+
 function onSubmit(e) {
   var rant = document.querySelector('#rb-rant').value;
   console.log(rant);
