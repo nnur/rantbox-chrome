@@ -1,0 +1,56 @@
+* {
+    font-family: Avenir Next, Arial, Helvetica, sans-serif;
+}
+
+.rb-wrapper {
+  margin: 5px;
+  width: 400px;
+  height: 300px;
+}
+
+.rb-logo {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.rb-rantbox {
+  width: 380px;
+  padding: 7px;
+  outline: none;
+  font-size: 12px;
+  border: solid 1px #C8CCD1;
+  margin-bottom: 15px;
+  min-height: 70px;
+}
+
+.rb-rantbox:focus {
+    background: #FFEFF8;
+}
+
+.rb-tags-title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.tagsinput {
+  margin-bottom: 10px;
+}
+
+.rb-submit-button {
+    font-size: 14px;
+    border: solid 1px#C8CCD1;
+    padding: 5px 10px 5px 10px;
+    background: white;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none; 
+}
+
+.rb-submit-button:hover {
+    background: #E4FCE2;
+}
+.rb-submit-button:active {
+    background: #D7FCDF;
+}
